@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="albums.css">
+</head>
+<body>
+    <div class="page1">
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="albums.html">Albums</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+            <div class="letstalk">
+                <h4><a href="letstalk.html"></a>Let's Talk</h4>
+            </div>
+        </nav>
+        <p>Our Projects</p>
+        <h3>From coming up with creative concepts to delivering outstanding campaigns, we're your friendly, fun-loving
+            crew ready to turn your project dreams into reality!</h3>
+    </div>
+
+    <div class="page2">
+        <div class="album-container">
+        <div class="album-box" onclick="openAlbum('album1')">
+            <h3>Album 1</h3>
+            <div class="image-box" style="background-image: url('assets/imges/img10.avif');"></div>
+        </div>
+        <div class="album-box" onclick="openAlbum('album1')">
+            <h3>Album 1</h3>
+            <div class="image-box" style="background-image: url('assets/imges/img10.avif');"></div>
+        </div>
+        <div class="album-box" onclick="openAlbum('album1')">
+            <h3>Album 1</h3>
+            <div class="image-box" style="background-image: url('assets/imges/img10.avif');"></div>
+        </div>
+        <div class="album-box" onclick="openAlbum('album1')">
+            <h3>Album 1</h3>
+            <div class="image-box" style="background-image: url('assets/imges/img10.avif');"></div>
+        </div>
+        <div class="album-box" onclick="openAlbum('album1')">
+            <h3>Album 1</h3>
+            <div class="image-box" style="background-image: url('assets/imges/img10.avif');"></div>
+        </div>
+        
+    </div>
+
+    <div id="album-modal" class="modal" onclick="closeModal()">
+        <div class="modal-content" onclick="event.stopPropagation();">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-images" class="modal-images"></div>
+        </div>
+    </div>
+    <div class="footer">
+
+        <div class="big-box">
+            <h1> Story Stream</h1>
+            <div class="inner-box1">
+                <h2>First Box</h2>
+                <button class="btn">Click Me</button>
+            </div>
+            <div class="flex-container">
+                <div class="inner-box2">
+                    <h2>Second Box</h2>
+                    <div class="subscribe-container">
+                        <input type="email" placeholder="Enter your email" />
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="inner-box3">
+                    <h2>Third Box</h2>
+                    <p>This is the third box.</p>
+                </div>
+            </div>
+            <div class="social-row">
+                <div class="social-box">Twitter</div>
+                <div class="social-box">LinkedIn</div>
+            </div>
+            <div class="social-row">
+                <div class="social-box">YouTube</div>
+                <div class="social-box">Instagram</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script src="albums.js"></script>
+</body>
+</html>
+    
+    
+    
+    
